@@ -1,0 +1,62 @@
+    body {
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      min-height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      animation: fadeIn 0.7s ease-in-out;
+    }
+
+    table img {
+      width: 70px;
+      height: 70px;
+      border-radius: 8px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    table img:hover {
+      transform: scale(1.05);
+    }
+
+    .table-hover tbody tr:hover {
+      background-color: #fff3cd !important;
+      transition: 0.3s ease;
+    }
+
+    a.btn-link {
+      text-decoration: none;
+      color: #f8b500;
+      font-weight: 500;
+    }
+
+    a.btn-link:hover {
+      text-decoration: underline;
+      color: #d19500;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+
+    .add-btn {
+      background-color: #f8b500;
+      border: none;
+    }
+
+    .add-btn:hover {
+      background-color: #d19500;
+    }

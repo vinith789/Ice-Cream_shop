@@ -1,0 +1,20 @@
+.card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .price {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #28a745;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: gray;
+      font-size: 0.9rem;
+      margin-left: 5px;
+    }
+    .discount-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
